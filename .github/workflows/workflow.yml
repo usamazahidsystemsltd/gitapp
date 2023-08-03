@@ -16,6 +16,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://dev.azure.com/techsup4000/AgileProject
-            azure-pipeline-name: 'webapp'
+            azure-devops-project-url: https://dev.azure.com/usamahamid/Practice
+            azure-pipeline-name: 'webapp.git (1)'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
